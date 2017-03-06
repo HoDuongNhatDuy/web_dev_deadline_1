@@ -30,11 +30,12 @@ ul li {
 }
 
 .user_block .image img{
-	width: 100px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 	position: relative;
-	top: -160px;
-	left: 40px;
+	border-radius: 100%;
+	top: -180px;
+	left: 50px;
 	transition: all .2s ease-in-out;
 }
 
@@ -69,9 +70,10 @@ ul li {
 }
 
 body {
-	background: #245661; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #245661 , #24828c); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #245661 , #24828c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #457884; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #457884 , #176171); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #457884 , #176171); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .user_block .info .info_link {
@@ -112,16 +114,19 @@ body {
 
 .wrap_member_page .cover_content .cover_info .name {
 	position: relative;
-	top: -45px;
+	top: -50px;
 	left: 130px;
 	width: 300px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 23px;
 }
 
 .detail_content {
 	width: 800px;
 	background-color: #fff;
 	position: relative;
-	top: -100px;
+	top: -110px;
 	border: 1px solid #d3d6db;
 }
 
