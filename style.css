@@ -8,7 +8,9 @@ ul li {
 	float: left;
 	padding: 0px 30px;
 }
-.welcome {
+.welcome,
+.welcome a:visited,
+.welcome a:link {
 	text-align: center;
  color: #9dd223;
 
@@ -122,11 +124,12 @@ body {
 .wrap_member_page .cover_info .avatar img {
 	width: 120px;
 	height: 120px;
+	border: 4px white solid;
 }
 
 .wrap_member_page .cover_content .cover_info .name {
 	position: relative;
-	top: -50px;
+	top: -65px;
 	left: 130px;
 	width: 300px;
 	color: #fff;
@@ -169,4 +172,3 @@ body {
 .wrap_member_page .detail_content table tr:hover{
 	background-color: #f6f7f9;
 }
-
