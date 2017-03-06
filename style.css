@@ -1,6 +1,19 @@
+ul {
+	position: relative;
+	top: -87px;
+
+}
 ul li {
 	list-style-type: none;
-}	
+	float: left;
+	padding: 0px 30px;
+}
+.welcome {
+	text-align: center;
+}
+.wrap {
+	margin-left:  20%;
+}
 .user_block .top {
 	background-color: #e66665;
 	height: 70px;
@@ -20,18 +33,18 @@ ul li {
 	height: 70px;
 	position: relative;
 	top: -160px;
-	left: 40px; 
+	left: 40px;
 }
 
 .user_block .name {
 	color: #64bbbf;
 	text-align: center;
-	padding-top: 50px; 
+	padding-top: 50px;
 	font-weight: bold;
 }
 
 .user_block .description {
-	color: #15465e;
+	color: #03b10b;
 	text-align: center;
 }
 
@@ -40,7 +53,7 @@ ul li {
 	float: left;
 	text-align: center;
 	padding-top: 20px;
-	color: #295268;
+	color: #a5cade;
 }
 
 .group_image {
