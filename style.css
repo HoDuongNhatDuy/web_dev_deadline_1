@@ -10,6 +10,8 @@ ul li {
 }
 .welcome {
 	text-align: center;
+ color: #9dd223;
+
 }
 .wrap,
 .wrap_member_page {
@@ -65,8 +67,10 @@ ul li {
 
 .group_image,
 .cover {
+
 	width: 800px;
 	height: 300px;
+	 box-shadow: 0px 0px 15px 15px white;
 }
 
 body {
@@ -94,7 +98,15 @@ body {
 	padding: 3px;
 	border-radius: 5px;
 }
+.user_block .name a:link
 
+{
+	color:#64bbbf;
+	text-decoration: none;
+}
+.user_block .name a:visited {
+	color: #64bbbf;
+}
 /* member page */
 .wrap_member_page {
 	height: 200px;
