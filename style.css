@@ -84,3 +84,11 @@ body {
 .user_block .info a:hover {
 	text-decoration: underline;
 }
+.user_block .name a:link
+{
+	color:#64bbbf;
+	text-decoration: none;
+}
+.user_block .name a:visited {
+	color: #64bbbf;
+}
