@@ -29,11 +29,12 @@ ul li {
 }
 
 .user_block .image img{
-	width: 100px;
+	width: 70px;
 	height: 70px;
 	position: relative;
+	border-radius: 100%;
 	top: -160px;
-	left: 40px;
+	left: 55px;
 }
 
 .user_block .name {
