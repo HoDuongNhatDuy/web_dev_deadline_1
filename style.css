@@ -100,6 +100,9 @@ body {
 	padding: 3px;
 	border-radius: 5px;
 }
+.user_block .info a{
+	transition: all .5s ease-in-out;
+}
 .user_block .name a:link
 
 {
